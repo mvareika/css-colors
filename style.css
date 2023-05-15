@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Roboto:ital,wght@0,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    background:rgb(95, 190, 214);
+    font-family: Edu VIC WA NT Beginner;
+}
+.box{
+    display: inline-block;
+    width: 200px;
+    /* height: 200px; */
+    line-height: 200px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    text-align:center;
+    font-size: 2em;
+}
+h2{
+    margin: 20px;
+}
+
+.rgb{
+    background: rgb(17, 55, 242);
+    /* rgba - a - reiškia spalvos ryškumą */
+    background: rgba(17, 55, 242, 0.5);
+    /* rgb skalė 0-255 */
+    background: rgb(82, 53, 185);
+}
+
+.hex{
+    background: #ffae00;
+    background: #ffffff;
+    /* hex tas pats kaip rgb */
+    background: #ff0000;
+    background: #00FF00;
+    background: #0000ff;
+    
+}
+.color-1{
+
+    background: #B799FF ;
+}
+.color-2{
+
+    background: #ACBCFF ;
+}
+.color-3{
+
+    background: #AEE2FF;
+}
+
+img{
+    width: 90%;
+    margin: 20px;
+}
